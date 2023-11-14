@@ -1,0 +1,113 @@
+$date
+	Tue Sep 12 12:24:51 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module q2_tb $end
+$var wire 4 ! b [3:0] $end
+$var reg 4 " g [3:0] $end
+$scope module uut $end
+$var wire 4 # g [3:0] $end
+$var wire 4 $ b [3:0] $end
+$scope module m1 $end
+$var wire 3 % s [2:0] $end
+$var wire 8 & y [7:0] $end
+$var reg 1 ' f $end
+$upscope $end
+$scope module m2 $end
+$var wire 3 ( s [2:0] $end
+$var wire 8 ) y [7:0] $end
+$var reg 1 * f $end
+$upscope $end
+$scope module m3 $end
+$var wire 3 + s [2:0] $end
+$var wire 8 , y [7:0] $end
+$var reg 1 - f $end
+$upscope $end
+$scope module m4 $end
+$var wire 3 . s [2:0] $end
+$var wire 8 / y [7:0] $end
+$var reg 1 0 f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+00
+b10010110 /
+b0 .
+0-
+b111100 ,
+b0 +
+0*
+b11110000 )
+b0 (
+0'
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#20
+1*
+b110 !
+b110 $
+1-
+b101 %
+b101 (
+b101 +
+b101 .
+b101 "
+b101 #
+#40
+1'
+b1111 !
+b1111 $
+10
+b11111111 &
+b100 %
+b1111 )
+b100 (
+b11000011 ,
+b100 +
+b1101001 /
+b100 .
+b1100 "
+b1100 #
+#60
+0-
+b1100 !
+b1100 $
+00
+b10 %
+b10 (
+b10 +
+b10 .
+b1010 "
+b1010 #
+#80
+0'
+b0 !
+b0 $
+0*
+b0 &
+b110 %
+b11110000 )
+b110 (
+b111100 ,
+b110 +
+b10010110 /
+b110 .
+b110 "
+b110 #
+#100

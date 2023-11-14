@@ -1,0 +1,104 @@
+$date
+	Tue Sep  5 15:49:38 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module pe_tb $end
+$var wire 1 ! z $end
+$var wire 2 " f [1:0] $end
+$var reg 1 # en $end
+$var reg 4 $ s [3:0] $end
+$var integer 32 % i [31:0] $end
+$scope module uut $end
+$var wire 1 # en $end
+$var wire 4 & s [3:0] $end
+$var reg 2 ' f [1:0] $end
+$var reg 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+b0 &
+b0 %
+b0 $
+1#
+bx "
+0!
+$end
+#20
+b0 "
+b0 '
+1!
+b1 $
+b1 &
+b1 %
+#40
+b1 "
+b1 '
+b10 $
+b10 &
+b10 %
+#60
+b11 $
+b11 &
+b11 %
+#80
+b10 "
+b10 '
+b100 $
+b100 &
+b100 %
+#100
+b101 $
+b101 &
+b101 %
+#120
+b110 $
+b110 &
+b110 %
+#140
+b111 $
+b111 &
+b111 %
+#160
+b11 "
+b11 '
+b1000 $
+b1000 &
+b1000 %
+#180
+b1001 $
+b1001 &
+b1001 %
+#200
+b1010 $
+b1010 &
+b1010 %
+#220
+b1011 $
+b1011 &
+b1011 %
+#240
+b1100 $
+b1100 &
+b1100 %
+#260
+b1101 $
+b1101 &
+b1101 %
+#280
+b1110 $
+b1110 &
+b1110 %
+#300
+b1111 $
+b1111 &
+b1111 %
+#320
+b10000 %
