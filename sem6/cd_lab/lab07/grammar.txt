@@ -1,0 +1,7 @@
+Program -> main() {declarations assign_stat}
+declartions -> data-type identifier-list; declarations | epsilon
+data-type -> int | char
+identifier-list -> idA
+A -> epsilon | ,identifier-list
+assign_stat-> id=B
+B-> id; | num;
